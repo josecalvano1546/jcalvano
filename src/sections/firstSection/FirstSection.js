@@ -36,7 +36,7 @@ const FirstSection = () => {
        function StartTextAnimation(i) {
          if (typeof dataText[i] === undefined){
             setTimeout(function() {
-              StartTextAnimation(0);
+             // StartTextAnimation(0);
             }, 2000);
          }
          // check if dataText[i] exists
@@ -48,7 +48,7 @@ const FirstSection = () => {
          });
         } else{
           setTimeout(function() {
-            StartTextAnimation(0);
+            //StartTextAnimation(0);
           }, 2000);
         }
       }
