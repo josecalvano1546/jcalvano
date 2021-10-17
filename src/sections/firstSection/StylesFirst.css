@@ -1,11 +1,9 @@
 .fistContainer {
-  
   width: 100%;
   /* height: 100vh; */
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 .textTitle {
   margin-top: 5%;
@@ -16,7 +14,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .circleBorder {
@@ -54,9 +51,29 @@
 }
 
 span {
-  border-right: .05em solid;
+  border-right: 0.05em solid;
   animation: caret 1s steps(1) infinite;
 }
+
+/*Botom dowload de curriculum*/
+
+.ghost-button {
+  color: black;
+  background: none;
+  border: 1px solid black;
+  /* font-size: 24px; */
+  padding: 9px 30px;
+  /* margin-top:5%; */
+  /* margin-bottom: 5%; */
+
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: none;
+  /* font-family: "HelveticaLTStd-Roman", Arial, sans-serif; */
+  min-width: 120px;
+  text-transform: uppercase;
+}
+/*End curriculum*/
 
 @keyframes caret {
   50% {
@@ -104,6 +121,11 @@ span {
     justify-content: center;
     align-items: center;
   }
+
+  .ghost-button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 }
 
 /*  X-Small devices (portrait phones, less than 576px) */
@@ -114,12 +136,10 @@ span {
   .circleBorder {
     height: 440px;
     width: 260px;
-    
   }
 
   .circle {
     height: 420px;
     width: 240px;
-   
   }
 }
