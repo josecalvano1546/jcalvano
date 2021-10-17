@@ -5,16 +5,16 @@
 }
 p {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  /* font-size: px; */
   font-weight: 600;
 }
 .logoText p {
   font-family: "Bonheur Royale", cursive;
-  font-size: 35px;
+  /* font-size: 35px; */
 }
 
 /*  X-Small devices (portrait phones, less than 576px)

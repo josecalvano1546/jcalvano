@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+
 }
 .textTitle {
   margin-top: 5%;
@@ -113,10 +114,12 @@ span {
   .circleBorder {
     height: 440px;
     width: 260px;
+    
   }
 
   .circle {
     height: 420px;
     width: 240px;
+   
   }
 }

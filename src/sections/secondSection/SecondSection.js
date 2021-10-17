@@ -87,7 +87,7 @@ const SecondSection = () => {
       trigger: "section.back",
       scroller: ".scroller",
       scrub: true,
-      markers: true,
+      //markers: true,
       pin: true,
       start: () => "top top",
       end: () => "+=" + (images.length + 1) * window.innerHeight,
@@ -113,7 +113,6 @@ const SecondSection = () => {
         onToggle: (self) => self.isActive && !scrollTween && goToSection(i),
       });
     });
-
   }, []);
 
   return (
@@ -240,9 +239,9 @@ const SecondSection = () => {
         </div>
       </section>
 
-     
+      <section className="orange requerido">
         <FooterSection />
-   
+      </section>
     </div>
   );
 };
