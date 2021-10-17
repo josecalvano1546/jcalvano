@@ -1,0 +1,122 @@
+.fistContainer {
+  
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.textTitle {
+  margin-top: 5%;
+}
+.containerImg {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circleBorder {
+  border: 2px solid #bbbbbb;
+  height: 620px;
+  width: 420px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 30% 30%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 450px */
+.circle {
+  height: 600px;
+  width: 400px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 30% 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../img/josePerfil.jpeg);
+}
+
+.description {
+  position: absolute;
+  padding-top: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.textDescription {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 4% 5% 2% 5%;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* .circleBorder {
+    height: 420px;
+    width: 270px;
+  }
+
+  .circle {
+    height: 400px;
+    width: 250px;
+  } */
+
+  .description {
+    position: relative;
+    padding-top: 2%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .textTitle {
+    margin-top: 10%;
+  }
+  .circleBorder {
+    height: 540px;
+    width: 320px;
+  }
+
+  .circle {
+    height: 520px;
+    width: 300px;
+  }
+  .containerImg {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .textTitle {
+    margin-top: 15%;
+  }
+  .circleBorder {
+    height: 440px;
+    width: 260px;
+  }
+
+  .circle {
+    height: 420px;
+    width: 240px;
+  }
+}

@@ -1,0 +1,45 @@
+.logo {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.textMenu {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  justify-content: center;
+  align-content: center;
+}
+
+.menu {
+  position: sticky;
+  top: 2%;
+  height: 35px;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  padding-right: 1%;
+  z-index: 1000;
+}
+
+@media (max-width: 991.98px) {
+  .textMenu {
+    right: 6%;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .textMenu {
+        right: 8%;
+      }
+}
+
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .textMenu {
+        right: 12%;
+      }
+ }
