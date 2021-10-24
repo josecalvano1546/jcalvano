@@ -6,7 +6,7 @@ const FooterSection = () => {
     <div className="footer">
     
     <div className="text">
-      <h1> Have an idea?</h1>
+      <h1 className="textFooter"> Have an idea?</h1>
       <a href="mailto:josecalvano1546@gmail.com">
         <p className="contact">Contact with me</p>
       </a>
