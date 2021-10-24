@@ -81,7 +81,7 @@ const FirstSection = () => {
             <TextDescription
               title={"BIOGRAPHY"}
               descriptionOne={
-                "Work for money and design for love! I’m José, an developer based in Argentina."
+                "Hello world. I am Jose Calvano, professional front-end developer with more than three years of experience in the web and mobile application development process."
               }
               direction={"right"}
             />
